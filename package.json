@@ -1,5 +1,5 @@
 {
-  "name": "mybook-info",
+  "name": "mybook_info",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,9 +15,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "deploy": "gh-pages -d build",
-    "predeploy": "yarn run build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "predeploy": "yarn run build"
   },
   "eslintConfig": {
     "extends": "react-app"
